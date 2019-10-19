@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cor.esipfed.org/ont/earthcube/RTE#"
+     xml:base="http://cor.esipfed.org/ont/earthcube/RTE"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://cor.esipfed.org/ont/earthcube/RTE">
+        <dc:creator xml:lang="en">Ruth Duerr</dc:creator>
+        <dc:description xml:lang="en">This mini-ontology is essentially a controlled vocabulary at this point.  Developed for NSF&apos;s EarthCube program&apos;s Resource Registry, the long term intention is to flesh this out to more completely define the environments that software components can run in.</dc:description>
+        <dc:title xml:lang="en">Runtime Environments Ontology</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Duerr, R., 2019, &quot;Runtime Environments Ontology&quot;, ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/RTE</terms:bibliographicCitation>
+        <terms:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0/"/>
+        <rdfs:label xml:lang="en">Runtime Environments Ontology</rdfs:label>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label>has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000001 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000001">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A runtime environment based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T21:17:13Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Android</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A runtime environment based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Android_(operating_system)"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q94"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000002 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000002">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A runtime environment that runs on super computers and uses parallel processing techniques to solve complex computational problems.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T21:58:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym xml:lang="en">High Performance Computing</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">HPC</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A runtime environment that runs on super computers and uses parallel processing techniques to solve complex computational problems.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://www.techopedia.com/definition/4595/high-performance-computing-hpc"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q1190465"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000003 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000003">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A runtime environment that uses a web browser as its user interface.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T22:13:38Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">in-the-browser</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A runtime environment that uses a web browser as its user interface.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://orcid.org/0000-0003-4808-4736"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000004 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000004">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">An runtime environment created and developed by Apple Inc. exclusively for its hardware that presently powers many of the company&apos;s mobile devices, including the iPhone, and iPod Touch.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T22:21:02Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">iOS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">An runtime environment created and developed by Apple Inc. exclusively for its hardware that presently powers many of the company&apos;s mobile devices, including the iPhone, and iPod Touch.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/IOS"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q48493"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000005 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000005">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A family of open source Unix-like runtime environments based on the Linux kernel.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T23:56:27Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Linux</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000005"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A family of open source Unix-like runtime environments based on the Linux kernel.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Linux"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q388"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000006 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000006">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A family of runtime environments developed and marketed by Apple Inc. as the primary operating system for Apple&apos;s Mac family of computers.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T23:59:23Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">MacOS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A family of runtime environments developed and marketed by Apple Inc. as the primary operating system for Apple&apos;s Mac family of computers.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/MacOS"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q14116"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000007 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000007">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A family of multitasking, multiuser computer runtime environments  that derive from the original AT&amp;T Unix.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-17T00:09:07Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Unix</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A family of multitasking, multiuser computer runtime environments  that derive from the original AT&amp;T Unix.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="https://en.wikipedia.org/wiki/Unix"/>
+        <obo:IAO_0000115 rdf:resource="https://www.wikidata.org/wiki/Q11368"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000008 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000008">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A group of graphical runtime environments, all of which are developed, marketed and sold by Microsoft, where each family caters to a certain sector of the computing industry.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-17T00:12:54Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">Windows</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A group of graphical runtime environments, all of which are developed, marketed and sold by Microsoft, where each family caters to a certain sector of the computing industry.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Microsoft_Windows"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q1406"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000009 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000009">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A runtime environment created and developed by Apple Inc. for their iPad line of tablet computers.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T22:37:32Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">iPadOS</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A runtime environment created and developed by Apple Inc. for their iPad line of tablet computers.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/IPadOS"/>
+        <obo:IAO_0000119 rdf:resource="https://www.wikidata.org/wiki/Q64350339"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000010 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000010">
+        <rdfs:subClassOf rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <obo:IAO_0000115 xml:lang="en">A runtime environment that allows an application to run as a servlet inside a software container as a component in a web server.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-18T23:20:56Z</oboInOwl:creation_date>
+        <rdfs:comment xml:lang="en">Examples: Apache Tomcat, GlassFish, Jetty</rdfs:comment>
+        <rdfs:label xml:lang="en">Java Servlet Container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cor.esipfed.org/ont/earthcube/RTE_000100 -->
+
+
+    <owl:Class rdf:about="http://cor.esipfed.org/ont/earthcube/RTE_000100">
+        <obo:IAO_0000115 xml:lang="en">The execution environment provided to an application or software by the operating system.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0003-4808-4736"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-10-16T21:50:54Z</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym xml:lang="en">operating system</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">execution environment</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">runtime environment</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The execution environment provided to an application or software by the operating system.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://www.techopedia.com/definition/5466/runtime-environment-rte"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://cor.esipfed.org/ont/earthcube/RTE_000100"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget xml:lang="en">operating system</owl:annotatedTarget>
+        <oboInOwl:hasExactSynonym xml:lang="en">OS</oboInOwl:hasExactSynonym>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
