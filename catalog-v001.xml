@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1571525935956" name="http://cor.esipfed.org/ont/earthcube/RTE" uri="docs/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1571607947846" name="http://cor.esipfed.org/ont/earthcube/RTE" uri="docs/ontology.xml"/>
     </group>
 </catalog>
